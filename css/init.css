@@ -76,9 +76,51 @@ body div#google-anno-sa {
     display: none !important;
 }
 
+/* section.cuenta-regresiva .box-aros {
+    width: 470px;
+    height: 470px;
+    background: url(../img/img_circuloContador01.svg) center center no-repeat;
+    position: absolute;
+    z-index: 99;
+    top: -200px;
+} */
+
+section.cuenta-regresiva .mensaje-first {
+    /* width: 470px;
+    height: 470px;
+    background: url(../img/img_circuloContador01.svg) center center no-repeat; */
+    position: absolute;
+    z-index: 99;
+    top: 200px;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 0 10px 0 10px;
+    color: #81948B !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+}
+
 @media only screen and (max-width: 767px) {
     section.ceremonia-fiesta .ceremonia-fiesta-flor-der {
         width: 30%;
         bottom: 46% !important;
     }
+}
+
+@media only screen and (max-width: 767px) {
+    section.cuenta-regresiva {
+        height: 430px !important;
+    }
+}
+
+.font-soloh {
+    font-family: 'Cookie', cursive !important;
+    font-size: 40px !important;
+}
+
+.line-color {
+    height: 1px;
+    width: 50%;
+    background-color: #81948B;
+    margin: 20px auto;
+    margin-top: 20px;
 }
