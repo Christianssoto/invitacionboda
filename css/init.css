@@ -55,7 +55,7 @@
     color: #4A6360;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px !important;
     text-align: center;
 }
 
@@ -85,10 +85,7 @@ body div#google-anno-sa {
     top: -200px;
 } */
 
-section.cuenta-regresiva .mensaje-first {
-    /* width: 470px;
-    height: 470px;
-    background: url(../img/img_circuloContador01.svg) center center no-repeat; */
+/* section.cuenta-regresiva .mensaje-first {
     position: absolute;
     z-index: 99;
     top: 200px;
@@ -96,8 +93,8 @@ section.cuenta-regresiva .mensaje-first {
     padding: 0 10px 0 10px;
     color: #81948B !important;
     font-weight: 400 !important;
-    font-size: 20px !important;
-}
+    font-size: 18   px !important;
+} */
 
 @media only screen and (max-width: 767px) {
     section.ceremonia-fiesta .ceremonia-fiesta-flor-der {
@@ -108,7 +105,7 @@ section.cuenta-regresiva .mensaje-first {
 
 @media only screen and (max-width: 767px) {
     section.cuenta-regresiva {
-        height: 430px !important;
+        height: 200px !important;
     }
 }
 
@@ -123,4 +120,13 @@ section.cuenta-regresiva .mensaje-first {
     background-color: #81948B;
     margin: 20px auto;
     margin-top: 20px;
+}
+
+.versiculo {
+    background-color: #FAF7F3;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 10px 10px 30px 10px;
+    color: #81948B !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
 }
