@@ -130,3 +130,11 @@ body div#google-anno-sa {
     font-weight: 400 !important;
     font-size: 18px !important;
 }
+
+.green-dark {
+    color: #5c726e !important;   
+}
+
+.fw-600 {
+    font-weight: 600 !important;
+}
