@@ -138,3 +138,17 @@ body div#google-anno-sa {
 .fw-600 {
     font-weight: 600 !important;
 }
+
+section.footer .info-col .info-box p {
+    font-family: 'Open Sans', sans-serif;
+    color: #81948B;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 767px) {
+    section.footer {
+        padding-bottom: 20%;
+        padding-top: 20% !important;
+    }
+}
