@@ -20,6 +20,13 @@
 
 @font-face {
     font-family: 'Gilroy';
+    src: url('fonts/gilroy-bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-regular';
     src: url('fonts/gilroy-regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
@@ -28,6 +35,15 @@
 .tittle {
     font-family: 'Photograph', sans-serif !important;
 }
+
+.sub-tittle {
+    font-family: 'Gilroy', sans-serif !important;
+}
+
+.sub-content {
+    font-family: 'Gilroy-regular', sans-serif !important;
+}
+
 
 .tittle-number {
     font-family: 'Cookie', cursive !important;
